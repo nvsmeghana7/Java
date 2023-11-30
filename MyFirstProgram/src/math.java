@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class math {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    /* double x = 3.14;
+     double y = -10;
+     
+     double z = Math.abs(x);//math functions,abs,ceil,floor,round,sqrt,min,max
+     System.out.println(z);*/
+		
+		double x;
+		double y;
+		double z;
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the side1: ");
+		x=sc.nextDouble();
+		System.out.println("Enter the side2: ");
+		y=sc.nextDouble();
+		z=Math.sqrt((x*x)+(y*y));
+		System.out.println("the hypotenuse of a triangle: "+z);
+		sc.close();
+		
+	}
+
+}

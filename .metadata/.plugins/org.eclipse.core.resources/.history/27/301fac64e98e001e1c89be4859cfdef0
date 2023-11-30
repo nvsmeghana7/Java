@@ -1,0 +1,17 @@
+
+public class swap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String x= "water";
+		String y = "cool-aid";
+		String temp;
+		
+		temp=x;
+		y=x;
+		temp =y;
+        System.out.println(x + y);
+	}
+
+}
