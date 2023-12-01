@@ -1,0 +1,13 @@
+
+public class method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//String name ="Meghana";
+		hello();
+	}
+ static void hello() {
+	 System.out.println("hello");
+ }
+}
