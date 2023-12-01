@@ -1,0 +1,12 @@
+
+public class string {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   String name = "Meghana";
+   boolean result = name.equals("meghana");
+   System.out.println(result);
+		   
+	}
+
+}

@@ -1,0 +1,33 @@
+
+public class overload {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     	int x =2;
+		int y =4;
+		int z=6;
+		int a=10;
+		add(x,y);
+		System.out.println(add(x,y,z));
+	}
+	
+	
+ static int add(int x,int y) {
+	 return x+y;
+	}
+ static int add(int x,int y,int z) {
+	 return x+y+z;
+	}
+ static int add(int x,int y,int z,int a) {
+	 return x+y+z+a;
+	}
+ static double add(double x,double y) {
+	 return x+y;
+	}
+ static double add(double  x,double y,double z) {
+	 return x+y+z;
+	}
+ static double add(double x,double y,double z,double a) {
+	 return x+y+z+a;
+	}
+}

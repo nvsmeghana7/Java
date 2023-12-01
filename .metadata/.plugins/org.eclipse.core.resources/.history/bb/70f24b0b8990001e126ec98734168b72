@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+public class arrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<String> bakery = new ArrayList();
+		bakery.add("cake");
+		bakery.add("cupcake");
+		bakery.add("donut");
+		
+		ArrayList<String> veg = new ArrayList();
+		bakery.add("brocoli");
+		bakery.add("carrot");
+		bakery.add("zuchini");
+		
+		ArrayList<String> drinks = new ArrayList();
+		bakery.add("soda");
+		bakery.add("coffee");
+		bakery.add("juice");
+		
+		System.out.println(veg.get(0));
+		
+	}
+
+}

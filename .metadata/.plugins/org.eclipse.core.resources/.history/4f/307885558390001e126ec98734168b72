@@ -1,0 +1,29 @@
+
+public class string {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   String name = " Meghana ";
+   boolean result = name.equals("Meghana");
+   boolean res = name.equals("meghana");
+   boolean res1=name.equalsIgnoreCase("meghana");
+   int res2 = name.length();
+   char res3 = name.charAt(0);
+   int res4 = name.indexOf("M");
+   boolean res5 = name.isEmpty();
+   String res6 = name.toLowerCase();
+   String res7=name.toUpperCase();
+   String res8=name.trim();
+   System.out.println(res7);
+   System.out.println(res6);
+   System.out.println(res5);
+   System.out.println(res4);
+   System.out.println(res3);
+   System.out.println(res2);
+   System.out.println(res);
+   System.out.println(res1);
+   System.out.println(result);
+		   
+	}
+
+}
